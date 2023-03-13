@@ -21,8 +21,8 @@ if (!isset($_SESSION['admin-panel'])) {
             <div class="col-12 col-sm-12 login-form">
                 <div class="admin-panel">
                     <div class="admin-menu">
-                        <a href="conferences.php">اطلاعیه ها</a>
-                        <a href="products.php">محصولات</a>
+                        <a href="notifications.php">اطلاعیه ها</a>
+                        <a href="products.php"> محصولات</a>
                     </div>
                     <h5>مدیریت اطلاعیه ها </h5>
                     <?php
@@ -54,8 +54,8 @@ if (!isset($_SESSION['admin-panel'])) {
                         <td>' . $row['title'] . '</td>
                         <td>' . substr($row['description'], 0, 30) . '...</td>
                         <td>' . $row['date'] . '</td> 
-                        <td><a href="update-conference.php?id=' . $row['id'] . '">ویرایش</a></td> 
-                        <td><a href="delete-conference-check.php?id=' . $row['id'] . '" style="color:red" id="btn">حذف</a></td> 
+                        <td><a href="update-notification.php?id=' . $row['id'] . '">ویرایش</a></td> 
+                        <td><a href="delete-notification-check.php?id=' . $row['id'] . '" style="color:red" id="btn">حذف</a></td> 
                     </tr>';
                                 $number++;
                             }

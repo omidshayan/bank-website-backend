@@ -18,7 +18,7 @@
             </div>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="./" class="nav-link">صفحه اصلی</a>
+                <a href="./../" class="nav-link">صفحه اصلی</a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link"
