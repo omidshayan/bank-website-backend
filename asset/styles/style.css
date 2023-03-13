@@ -737,7 +737,7 @@ img.avatar {
     border-radius: 50%;
 }
 
-/* admin panel */
+/*////////////////////// admin panel //////////////////////*/
 .admin-title{
     color: var(--dark);
     text-align: center;
@@ -747,7 +747,7 @@ img.avatar {
     width: 100%;
     height: auto;
     background-color: var(--main);
-    margin: 50px auto;
+    margin: 50px auto 290px auto;
 }
 .admin-menu{
     width: 100%;
@@ -798,9 +798,141 @@ img.avatar {
     text-decoration: underline;
 }
 
+/* show data in admin panel */
+.data-over{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+}
+.table-users{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+.table-users tr td{
+    padding: 5px 3px;
+}
+
+table tr:nth-child(even) {
+    background-color: #91b2fe;
+}
+table tr:nth-child(odd) {
+   background-color:#5cadff;
+}
+table tr:nth-child(even):hover {
+    background-color: #b2b2b2;
+}
+table tr:nth-child(odd):hover {
+   background-color:#b2b2b2;
+}
+.tr-main{
+    color: var(--supplement);
+    font-size: 18px;
+}
+.tr-main td{
+    background-color: #0091ff;
+}
+.table-users tr td a{
+    background-color: transparent;
+}
+.table-users tr td a:hover{
+    background-color: transparent;
+}
+.new-item{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.new-item a{
+    margin: 20px;
+    color: var(--supplement);
+    text-decoration: underline;
+}
+
+
+/* insert item */
+.insert-item{
+    width: 90%;
+    height: auto;
+    padding: 30px;
+}
+.myForm{
+    padding: 20px 50px;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--supplement);
+    box-sizing: border-box;
+    height: 150px;
+    resize: vertical;
+    font-size: 17px;
+}
+.myForm{
+    padding: 20px 50px;
+}
+.myForm a{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: var(--supplement);
+    text-decoration: underline !important;
+}
+.my-hr{
+    width: 50%;
+    border: 1px solid var(--main);
+}
+.d-don{
+    text-decoration: underline;
+    color: rgb(54, 7, 7);
+}
+.legel-don{
+    color: #39148f;
+}
+.title h4{
+    text-align: center;
+    color: var(--supplement);
+    margin-top: 10px;
+}
+.text-post{
+    color: var(--white);
+}
+
+
+
 /* custom */
 .my-event{
     text-align: center;
    color: red;
    margin-bottom: 10px;
+}
+/* my events */
+.myOk{
+    text-align: center;
+    color: var(--supplement);
+    background-color: rgba(154, 255, 3, 0.765);
+    padding: 5px;
+    width: 40%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+}
+.error{
+    text-align: center;
+    color: red;
+    background-color: var(--dark);
+    padding: 5px;
+    width: 40%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
 }

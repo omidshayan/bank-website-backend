@@ -9,7 +9,7 @@ if(!isset($_SESSION['admin-panel']) ){
 <h2 class="admin-title">بخش مدیریت</h2>
 <div class="admin-panel">
     <div class="admin-menu">
-        <a href="conferences.php">کنفرانس ها</a>
+        <a href="notifications.php">اطلاعیه ها</a>
         <a href="products.php"> محصولات</a>
     </div>
 </div>
@@ -19,6 +19,4 @@ if(!isset($_SESSION['admin-panel']) ){
 </div>
 
 <?php }
-?>
-
-<?php include_once 'footer.php'; ?>
+include_once 'footer.php'; ?>
