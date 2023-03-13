@@ -536,21 +536,24 @@ footer ul li a {
 /* Bank accounts start */
 
 /* cards */
-.cards{
-width: 100%;
+.cards {
+    width: 100%;
 }
-.show-all a{
+
+.show-all a {
     color: var(--dark);
     text-decoration: underline;
     display: flex;
     justify-content: flex-end;
 }
-.cards-item{
-    margin-top: 30px;
-    background-color: var(--white);
+
+.cards-item {
+    background-color: var(--dark);
     padding: 10px;
+    box-shadow: 0 0 10px var(--supplement);
     transition: 0.5s;
     border-radius: 5px;
+    height: auto;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -558,27 +561,30 @@ width: 100%;
     -o-transition: 0.5s;
     margin-bottom: 40px;
     position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.cards-item:hover{
+
+.cards-item:hover {
     box-shadow: rgba(50, 50, 93, 0.776) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.792) 0px 3px 7px -3px;
+        rgba(0, 0, 0, 0.792) 0px 3px 7px -3px;
 }
-.cards-item img{
-    width: 100%;
-    height: 100%;
+
+.cards-item img {
+    width: 100% !important;
     transition: 0.5s;
 }
-.cards-item img:hover{
+
+
+.cards-item img:hover {
     transform: scale(1.07);
 }
-.cards-item h3{
+
+.cards-item h3 {
     text-align: center;
     color: var(--dark);
     margin-top: 10px;
 }
-.cards-item p{
+
+.cards-item p {
     text-align: right;
     color: var(--white);
     margin-top: 10px;
@@ -587,37 +593,40 @@ width: 100%;
 }
 
 /* notifications */
-.date{
+.date {
     margin-top: 15px;
     font-size: 14px;
     color: #000;
 }
-.notif-back{
-    background: rgb(122,253,255);
-    background: linear-gradient(0deg, rgb(244, 96, 255) 0%, rgba(255,255,255,1) 26%);
+
+.notif-back {
+    background: rgb(122, 253, 255);
+    background: linear-gradient(0deg, rgb(244, 96, 255) 0%, rgba(255, 255, 255, 1) 26%);
 }
 
 /* products */
-.product-back{
-    background: rgb(122,253,255);
-    background: linear-gradient(0deg, rgb(193, 255, 173) 0%, rgba(255,255,255,1) 26%);
+.product-back {
+    background: rgb(122, 253, 255);
+    background: linear-gradient(0deg, rgb(193, 255, 173) 0%, rgba(255, 255, 255, 1) 26%);
 }
-.m-top{
+
+.m-top {
     margin-top: 50px;
 }
 
 /* account */
-.account-back{
-        background: rgb(122,253,255);
-        background: linear-gradient(0deg, rgb(174, 160, 255) 0%, rgba(255,255,255,1) 26%);
+.account-back {
+    background: rgb(122, 253, 255);
+    background: linear-gradient(0deg, rgb(174, 160, 255) 0%, rgba(255, 255, 255, 1) 26%);
 }
 
 /* about */
-.social-icon{
+.social-icon {
     color: var(--supplement);
     font-size: 22px !important;
 }
-.social-icon:hover{
+
+.social-icon:hover {
     color: var(--supplement);
     transform: scale(1.3);
 }
@@ -661,4 +670,137 @@ width: 100%;
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
     cursor: pointer;
+}
+
+/* admin page */
+form {
+    border: 1px solid var(--supplement);
+    background-color: var(--main);
+    padding: 20px;
+    background-color: rgba(140, 25, 255, 0.5);
+    border-radius: 10px;
+}
+.login-form {
+    margin: 50px auto;
+    width: 20%;
+}
+.login-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--supplement);
+}
+@media(max-width : 1100px) {
+    .login-form {
+        width: 100%;
+    }
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--main1);
+    box-sizing: border-box;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--supplement);
+    padding: 8px 10px;
+    margin: 15px auto;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: var(--white);
+}
+button:hover {
+    opacity: 0.8;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+/* admin panel */
+.admin-title{
+    color: var(--dark);
+    text-align: center;
+    margin: 20px;
+}
+.admin-panel{
+    width: 100%;
+    height: auto;
+    background-color: var(--main);
+    margin: 50px auto;
+}
+.admin-menu{
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--supplement);
+    background-color: var(--supplement);
+}
+.admin-menu a{
+    margin: 20px;
+    color: var(--white);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.admin-panel h5{
+    text-align: center;
+    color: var(--supplement);
+    margin: 10px;
+    font-size: 17px;
+}
+
+/* exit btn */
+.exit{
+    font-size: 14px;
+    position: fixed;
+    top: 100px;
+    z-index: 5;
+    right: 40px;
+    background-color: var(--supplement);
+    padding: 5px 12px;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.exit:hover{
+    background-color: var(--dark);
+    color: var(--supplement);
+    display: inline-block;
+}
+.exit a{
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* custom */
+.my-event{
+    text-align: center;
+   color: red;
+   margin-bottom: 10px;
 }

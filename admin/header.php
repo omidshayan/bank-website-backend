@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="asset/styles/grid.css" />
-    <link rel="stylesheet" href="asset/styles/style.css" />
+    <link rel="stylesheet" href="../asset/styles/grid.css" />
+    <link rel="stylesheet" href="../asset/styles/style.css" />
     <title>AUB</title>
   </head>
   <body>
@@ -40,7 +40,7 @@
               </li>
             </ul>
             <div class="logo">
-              <img src="asset/img/logo.png" alt="" />
+              <img src="../asset/img/logo.png" alt="" />
             </div>
           </nav>
         </div>
@@ -51,7 +51,7 @@
           <div class="close-menu">
             <i class="fas fa-times"></i>
           </div>
-          <img src="asset/img/logo.png" alt="" />
+          <img src="../asset/img/logo.png" alt="" />
           <ul>
             <li><a href="./">صفحه اصلی </a></li>
             <li>
