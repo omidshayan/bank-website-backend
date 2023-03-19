@@ -12,7 +12,7 @@ $result->bindValue(2, $notif_desc);
 $result->bindValue(3, $src);
 if ($result->execute()) {
     move_uploaded_file($_FILES['img']['tmp_name'], $src);
-    header("location:insert-product.php?ok=10&id=" . $_POST["news_id"]);
+    header("location:insert-product.php?ok=10");
 } else {
-    header("location:insert-product.php?error=11&id=" . $_POST["news_id"]);
+    header("location:insert-product.php?error=11");
 }

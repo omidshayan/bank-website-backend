@@ -2,7 +2,6 @@
     include_once '../db.php';
 
     $src = "../img-posts/".$_FILES['img'] ["name"];
-
     $notif_title = $_POST['title'];
     $notif_desc = $_POST['description']; 
 

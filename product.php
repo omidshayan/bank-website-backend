@@ -10,7 +10,7 @@ $data = $result->fetch(PDO::FETCH_OBJ);
 <!-- story -->
 <div class="pages">
   <div class="container">
-    <h2 class="home-title">معرفی محصول</h2>
+    <h2 class="home-title">معرفی محصول: <?=$data->title?></h2>
     <hr class="hr-style" />
     <div class="row align-items-center data-style">
       <div class="col-12 col-sm-6 show-post">

@@ -19,6 +19,7 @@
                         <a href="product.php?id=<?=$row['id']?>">
                             <img src="img-posts/<?=$row['img']?>" alt="">
                             <h2 class="m-top-p desc"><?=$row['title']?></h2>
+                            <?=$row['title']?>
                             <p class="desc"><?=substr($row['description'],0,71)?>...</p>
                         </a>
                     </div>

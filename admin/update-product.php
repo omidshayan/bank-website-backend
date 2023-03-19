@@ -13,7 +13,7 @@ include_once "header.php"; ?>
             <form action="update-product-check.php" method="post" enctype="multipart/form-data" class="myForm">
                 <?php
                 if (isset($_GET['ok'])) {
-                    echo '<div class="myOk">محصول جدید با موفقیت ثبت شد!</div>';
+                    echo '<div class="myOk">محصول جدید با موفقیت ویرایش شد!</div>';
                 }
                 if (isset($_GET['error'])) {
                     echo '<div class="error">خطا در ویرایش محصول!</div>';

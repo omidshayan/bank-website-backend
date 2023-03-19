@@ -1,4 +1,4 @@
 <?php
 session_start();
 unset($_SESSION['admin-panel']);
-header('location:../index.php');
+header('location:../');
