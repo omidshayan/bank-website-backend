@@ -20,6 +20,7 @@
             <a href="notif.php?id=<?=$row['id']?>">
             <img src="img-posts/<?=$row['img']?>" alt="">
               <h3><?=$row['title']?></h3>
+              <p class="desc"><?=substr($row['description'],0,71)?>...</p>
               <div class="date"><?=$row['date']?></div>
             </a>
           </div>
