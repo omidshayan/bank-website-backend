@@ -136,7 +136,7 @@
     <hr class="hr-style" />
     <div class="row">
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="cards-item account-back">
+        <div class="cards-item acount-he account-back">
           <a href="acount1.php">
             <img src="asset/img/account1.jpg" alt="" />
             <h3>acount bank</h3>
@@ -144,7 +144,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="cards-item account-back">
+        <div class="cards-item acount-he account-back">
           <a href="acount2.php">
             <img src="asset/img/account2.jpg" alt="" />
             <h3>acount bank</h3>
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="cards-item account-back">
+        <div class="cards-item acount-he account-back">
           <a href="acount3.php">
             <img src="asset/img/account3.jpg" alt="" />
             <h3>acount bank</h3>
@@ -160,7 +160,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="cards-item account-back">
+        <div class="cards-item acount-he account-back">
           <a href="acount4.php">
             <img src="asset/img/account4.jpg" alt="" />
             <h3>acount bank</h2>

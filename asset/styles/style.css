@@ -559,6 +559,9 @@ footer ul li a {
     position: relative;
     color: var(--dark);
 }
+.acount-he{
+    height: 400px;
+}
 .m-height{
     height: 320px;
     overflow: hidden;
