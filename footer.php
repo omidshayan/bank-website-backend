@@ -55,7 +55,7 @@
       </div>
 
       <div class="copyright">
-        copyright: 2022 - <a href="views/aboutme.php">عتیق الله رامش</a>
+        copyright: 2022 - <a href="aboutme.php">عتیق الله رامش</a>
       </div>
     </footer>
     <!-- end footer -->

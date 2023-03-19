@@ -553,7 +553,7 @@ footer ul li a {
     box-shadow: 0 0 10px var(--supplement);
     transition: 0.5s;
     border-radius: 5px;
-    height: auto;
+    height: 300px;
     transition: 0.5s;
     margin-bottom: 40px;
     position: relative;

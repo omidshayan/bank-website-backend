@@ -84,7 +84,7 @@
             <a href="product.php?id=<?= $row1['id'] ?>">
               <img src="img-posts/<?= $row1['img'] ?>" alt="">
               <h4 class="m-top-p"><?= $row1['title'] ?></h4>
-              <p class="desc"><?= substr($row1['description'], 0, 71) ?>...</p>
+              <p class="desc text-color"><?= substr($row1['description'], 0, 71) ?>...</p>
             </a>
           </div>
         </div>
@@ -139,7 +139,7 @@
         <div class="cards-item account-back">
           <a href="acount.html">
             <img src="asset/img/account1.jpg" alt="" />
-            <h3>acount bank</h3>
+            <h3>dfgfgfdgfdgfg fdg fdgfdg f bank</h3>
           </a>
         </div>
       </div>
